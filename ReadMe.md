@@ -38,6 +38,7 @@ Post processing of HAR dataset to extract a **tidy** subset
 The dataset includes the following files
 -----
 
-- 'README.Rmd'      : This dcument explaining the background of the dataset
-- 'tidyHAR.txt'     : The summarized data containing a subset of **UCI HAR dataset**
-- 'HARCOdebook.Rmd' : COdebook explaining the codes used in the summarized dataset
+- 'Codebook.md' 	: Codebook explaining the codes used in the summarized dataset
+- 'ReadMe.md'   	: This dcument explaining the background of the dataset
+- 'run_analysis.R' 	: R script for generating tidyHAR.txt from **UCI HAR dataset**
+- 'tidyHAR.txt' 	: The summarized data containing a subset of **UCI HAR dataset**
