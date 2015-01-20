@@ -56,7 +56,7 @@ torn.df[ ,1] = gsub(pattern = "Mag", replacement = ".Magnitude", x = torn.df[ ,1
 torn.df[ ,1] = gsub(pattern = "Jerk", replacement = ".Jerk", x = torn.df[ ,1])
 torn.df[ ,1] = gsub(pattern = "Gyro", replacement = ".Angular.Velocity", x = torn.df[ ,1])
 torn.df[ ,1] = gsub(pattern = "^t", replacement = "", x = torn.df[ ,1])
-torn.df[ ,1] = gsub(pattern = "^f", replacement = "FFT.of ", x = torn.df[ ,1])
+torn.df[ ,1] = gsub(pattern = "^f", replacement = "FFT.of.", x = torn.df[ ,1])
 
 torn.df[ ,2] = gsub(pattern = "mean", replacement = "Mean", x = torn.df[ ,2])
 torn.df[ ,2] = gsub(pattern = "std", replacement = "Stdev", x = torn.df[ ,2])
