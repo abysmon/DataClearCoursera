@@ -10,25 +10,17 @@ The tidy dataset extracted has been put in narrow format. The extracted dataset 
 
 ### Variable: Activity
 
-In the **UCI HAR dataset** variable **Activity** is the activity performed by each subject among the total of 6 activities. The variable **Activity** has been coded as following:
+In the **UCI HAR dataset** variable **Activity** is the activity performed by each subject among the total of 6 activities. In the **UCI HAR dataset** variable **Activity** has been coded as following:
 
-+----+--------------------------+
-|Code| Activity                 |
-+====+==========================+
-| 1  | Walking                  |
-+----+--------------------------+
-| 2  | Climbing up the stairs   |
-+----+--------------------------+
-| 3  | Climbing down the stairs |
-+----+--------------------------+
-| 4  | Sitting Up               |
-+----+--------------------------+
-| 5  | Standing                 |
-+----+--------------------------+
-| 6  | Laying down              |
-+----+--------------------------+
-
-In the tidy dataset they have been converted to strings. So this column contains 6 different character strings. Data type is **character string**.
+  * 1 -> Walking
+  * 2 -> Climbing up the stairs
+  * 3 -> Climbing down the stairs
+  * 4 -> Sitting Up
+  * 5 -> Standing
+  * 6 -> Laying down
+  
+  
+In the tidy dataset they have been *converted to strings instead of numeric codes*. So this column contains 6 different character strings. Data type is **character string**.
 
 
 
